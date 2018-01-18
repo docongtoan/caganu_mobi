@@ -1,0 +1,318 @@
+.panel-categorys{
+	width:100%;
+	height:100%;
+  position:relative;
+  z-index:0;
+}
+.num_product {
+   position: absolute;
+  right: 0px;
+  top:0px;
+  padding: 0;
+  margin: -5px;
+  text-align: center;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+     height: 19px;
+    line-height: 22px;
+    min-width: 18px;
+  color: #333;
+  background: #e1e1e1;
+  font-size: 12px;
+  -webkit-transition: ease all .4s;
+  -o-transition: ease all .4s;
+  transition: ease all .4s;
+}
+.icon-cart{
+	margin-right:12px;
+	margin-top: 20px;
+	width:20px;
+}
+.fadeOut .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.title-panel-min{
+  position:absolute;
+  z-index:1;
+  margin-top:-50px;
+  font-size:15px;
+  color: white;
+  margin-left:5%;
+  margin-right:5%;
+  opacity:0.6;
+  border:1px solid;
+  background:#2d2929;
+  text-align:center;
+}
+.title-panel-catalog{
+  position:absolute;
+  z-index:1;
+  margin-top:-50px;
+  font-size:15px;
+  color: white;
+  margin-left:5%;
+  margin-right:5%;
+  opacity:0.6;
+  border:1px solid;
+  background:#2d2929;
+  text-align:center;
+}
+.title-panel-max{
+  position:absolute;
+  z-index:1;
+  margin-top:-50px;
+  font-size:15px;
+  color: white;
+  margin-left:3%;
+  text-align:center;
+  opacity:0.6;
+  border:1px solid;
+  background:#2d2929;
+}
+.title-panel-max:hover {
+    background-color:#2d2929;
+}
+.title-panel-min:hover {
+    background-color:#2d2929;
+}
+.icon-panel-max{
+  position:absolute;
+  z-index:1;
+  margin-top:-480px;
+  margin-left:2%;
+  font-size:30px;
+  color: white;
+  opacity:initial;
+  border:5px;
+}
+.icon-panel-min{
+  position:absolute;
+  z-index:1;
+  margin-top:-240px;
+  margin-left:2%;
+  font-size:30px;
+  color: white;
+  opacity:initial;
+  border:5px;
+}
+.btn-search{
+  background-color:#fb9337;
+}
+.select-product{
+  border-radius:5px;
+  padding: 0 0 13px 13px;
+}
+.panel-product{
+  background-color:white;
+  border-color:white;
+}
+hr{
+  color: #fb9337;
+  background: #fb9337;
+  border: 0;
+  height: 1px;
+  margin:0px;
+}
+.name-product{
+  float:left;
+  text-align:left;
+  width:50%;
+  color: #fb9337;
+  font-weight: bold;
+
+}
+.price-product{
+  width:50%;
+  text-align:right;
+  float:right;
+  background-color:#fb9337; 
+  font-weight:bold;
+  color:white;
+}
+.image-logo-caganu{
+ display:inherit;
+}
+.search-product {
+  padding: 15px;
+  width:100%;
+}
+.menu-custom{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    padding-top: 8%;
+}
+.product{
+      border-radius: 0;
+    padding: 0 0 13px 13px;
+	width:48%;
+}
+.category{
+      border-radius: 0;
+    padding: 8px;
+}
+.logo-caganu{
+width: 100%;
+display: inline-block;
+margin-top: 8%;
+}
+.heading-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:black;
+}
+strong{
+   color:black;
+}
+.price-info__discount {
+    background-color: #d8131b;
+    line-height: 1;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 4px;
+    position: relative;
+}
+.price-info__sale {
+    font-size: 24px;
+    color: #ca000d;
+    line-height: 1;
+}
+.price-info__original {
+    line-height: 1.4;
+    color: #999;
+    text-decoration: line-through;
+}
+.price-info__delivery {
+    color: #333;
+    display: table-row-group;
+    width: 100%;
+}
+.price-info{
+  padding-left:4%;
+}
+.footer-warehouse{
+  margin-top:-15px;
+}
+.half-bottom{
+  margin-top:-15px;
+}
+.icon-delete{
+float:right;
+color:red;
+font-size: 20px;
+}
+.commitment_payment{
+  text-align:center;
+  color:#131389;
+}
+.title-payment{
+  color:black;
+  font-weight:bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0 auto; /* Center website */
+    max-width: 800px; /* Max width */
+}
+
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+}
+
+.middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+    .side, .middle {
+        width: 100%;
+    }
+    /* Hide the right column on small screens */
+    .right {
+        display: none;
+    }
+}
+.hr-col
+{
+  padding:6px;
+}
+.image-product
+{
+	width:100%;
+}
+.form-control-radius
+{
+	border-radius:5px;
+}
+.row-custom{
+	    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.textbox-pay-suc{
+	width:50%;
+	padding-right:7px;
+	float:left;
+}
+
